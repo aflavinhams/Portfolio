@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+nav {
+    background-color:rgb(106, 161, 233);
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+nav ul li {
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(221, 163, 223);
+}
+
+body {
+    background-color: #9dc3f5;
+    margin: 0;
+    font-size: 17px;
+    font-family: cursive;
+    line-height: 2;
+    color: #666;
+    text-align: justify;
+}
+
+section {
+    padding: 10px;
+}
+
+.ClsDadosPessoais {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+h1 {
+    color:rgb(27, 54, 145);
+    font-size: 30px;
+}
+
+h2 {
+    color:rgb(64, 114, 207);
+    font-size: 20px;
+}
+
+h3 {
+    padding: 2%;
+    color:rgb(64, 114, 207);
+    font-size: 25px;
+}
+
+p {
+    color:rgb(49, 55, 87);
+    font-size: 17px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img {
+    text-align: center;
+}
+a {
+    color: blue;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(216, 59, 156);
+}
